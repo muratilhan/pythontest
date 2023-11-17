@@ -7,6 +7,12 @@ CORS(app)
 
 #asdasdasd 
 #asdasdasd
+
+@app.route('/deneme', methods=['GET'])
+def start():
+    #asdasdasd
+    return "bu bir get meth"
+
 @app.route('/start', methods=['GET'])
 def start():
     #asdasdasd
