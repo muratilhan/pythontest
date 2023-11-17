@@ -7,12 +7,17 @@ CORS(app)
 
 #asdasdasd 
 #asdasdasd
+<<<<<<< HEAD
 
 @app.route('/deneme', methods=['GET'])
 def start():
     #asdasdasd
     return "bu bir get meth"
 
+=======
+degisken = 5
+print(degisken)
+>>>>>>> 9e5a795 (variable added)
 @app.route('/start', methods=['GET'])
 def start():
     #asdasdasd
