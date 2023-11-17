@@ -3,9 +3,19 @@ from flask import Flask, make_response, jsonify
 
 app = Flask(__name__)
 CORS(app)
-print("hihihi")
 
+def deneme():
+    print("heyhey")
+input("asdasd")
 #asdasdasd 
+input("asdasd")
+
+input("asdasd")
+
+input("asdasd")
+
+input("asdasd")
+
 #asdasdasd
 
 degisken = 5
