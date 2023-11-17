@@ -4,6 +4,12 @@ from flask import Flask, make_response, jsonify
 app = Flask(__name__)
 CORS(app)
 
+print("hihihi")
+@app.route('/start', methods=['GET'])
+def start():
+    #asdasdasd
+    return "bu bir get meth"
+
 def deneme():
     print("heyhey")
 input("asdasd")
