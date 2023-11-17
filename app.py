@@ -6,8 +6,16 @@ CORS(app)
 
 def deneme():
     print("heyhey")
-
+input("asdasd")
 #asdasdasd 
+input("asdasd")
+
+input("asdasd")
+
+input("asdasd")
+
+input("asdasd")
+
 #asdasdasd
 
 degisken = 5
