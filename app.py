@@ -5,10 +5,9 @@ app = Flask(__name__)
 CORS(app)
 
 
-
 @app.route('/start', methods=['GET'])
 def start():
-    return "bu bir get meth"
+   return "bu bir get meth"
 
 @app.route('/post', methods=['POST'])
 def start2():
