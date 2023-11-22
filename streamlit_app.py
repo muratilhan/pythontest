@@ -11,10 +11,6 @@ st.write("asd")
 def start2():
     return jsonify({"message":"bu bir get method"})
 
-@app.route('/test', methods=['GET'])
-def start2():
-    return jsonify({"message":"bu bir get method"})
-
 
 if __name__ == '__main__':
     app.run(debug=True)
