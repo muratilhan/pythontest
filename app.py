@@ -4,25 +4,10 @@ from flask import Flask, make_response, jsonify
 app = Flask(__name__)
 CORS(app)
 
-def deneme():
-    print("heyhey")
-input("asdasd")
-#asdasdasd 
-input("asdasd")
 
-input("asdasd")
 
-input("asdasd")
-
-input("asdasd")
-
-#asdasdasd
-
-degisken = 5
-print(degisken)
 @app.route('/start', methods=['GET'])
 def start():
-    #asdasdasd
     return "bu bir get meth"
 
 @app.route('/post', methods=['POST'])
