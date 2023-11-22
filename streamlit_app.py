@@ -5,6 +5,7 @@ from flask import Flask, make_response, jsonify
 app = Flask(__name__)
 CORS(app)
 
+st.write("asd")
 
 @app.route('/test', methods=['GET'])
 def start2():
