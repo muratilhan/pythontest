@@ -1,3 +1,0 @@
-streamlit
-flask_cors
-FLASK==2.1.0
