@@ -9,7 +9,7 @@ st.write("asd")
 
 @app.route('/test', methods=['GET'])
 def start2():
-    return jsonify({"message":"bu bir get method"})
+    st.write("get")
 
 
 if __name__ == '__main__':
