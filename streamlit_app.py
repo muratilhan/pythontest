@@ -9,10 +9,5 @@ st.write("asd")
 
 @app.route('/test', methods=['GET'])
 def start2():
-    st.write("get")
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
-    
+    st.write({"get"})
 
